@@ -12,9 +12,18 @@ body {
   background-color: #191919;
 }
 
-img{
+.pfp{
   border-radius: 100%;
+  border: 1px solid  black ;
+  transform: scale(1);
+  transition: 1s;
 }
+
+.pfp:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+
 
 .form-signin {
   max-width: 330px;
@@ -49,6 +58,7 @@ img{
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
+
 
 /* Sucess page */
 
